@@ -1,7 +1,7 @@
 # Reading-Notes
 Notes for Code School
 
-## *[Class 01](/102/Class01)*
+## *[Class 01](/READING-NOTES/102/Class01)*
 
 Class 01 - Markdown
 
