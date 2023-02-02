@@ -1,12 +1,7 @@
-# Reading-Notes
-Notes for Code School
+# Chris
 
-## [Class 01](/102/Class%2001/Lab01/README.md)
+# Table of Contents
 
-Class 01 - Markdown
+## [Course 102](/Reading-Notes/102/README.md)
 
-## [Class 02](/102/Class02/README.md)
-
-Class 02 Stuff
-
-## [Class 03]()
+## [Course 201](/Reading-Notes/201/README.md)
