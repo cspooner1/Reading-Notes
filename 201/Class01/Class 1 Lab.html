@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: darkred;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+</head>
+<body>
+<main>
+<h1 style="font-family: Brush Script MT, cursive";>Class 1 Lab</h1>
+</main>
+<div >
+<!-- //within the p tags type questions as text -->
+<p id="name" style="background-color: rgb(32, 189, 189);">What is your name?</p>
+<p id="music">Who is your favorite artist?</p>
+<p id="game">What is your favorite game?</p>
+<p id="anime">What is your favorite anime?</p>
+<!-- //add a style element somewhere in the document -->
+</div>
+<footer>
+</footer>
+</body>
+<script>
+// type javascript code
+let name= "";
+let music= "";
+let game= "";
+let anime= "";
+
+function name() {
+    name = prompt("What is your name?");
+        if (name!= "") {
+            alert('Wassup'  + name);
+            document.getElementById("name").innerHTML = "Wassup" + name;
+        } else {
+            alert('Cat got your tongue?');
+        }
+        console.log('Wassup' + name);
+}
+
+function music() {
+    name = prompt("Who is your favorite Artist");
+        if (music!= "") {
+            alert('If you listen to'  + music + 'I guess yo music taste aint bad.');
+            document.getElementById("music").innerHTML = "If you listen to" + music + "I guess yo music taste aint bad.";
+        } else {
+            alert('Dang you dont like music?');
+        }
+        console.log("If you listen to" + music + "I guess yo music taste aint bad.");
+}
+
+function game() {
+    name = prompt("What is your favorite game?");
+        if (game!= "") {
+            alert('See'  + name + 'I knew I messed with you for a reason');
+            document.getElementById("game").innerHTML = "See" + name + "I knew I messed with you for a reason";
+        } else {
+            alert('Where you think you going;)');
+        }
+        console.log("See" + name + "I knew I messed with you for a reason");
+}
+
+function anime() {
+    name = prompt("What is your favorite anime?");
+        if (anime!= "") {
+            alert('Oooo' + anime + 'sounds raw fareal');
+            document.getElementById("anime").innerHTML = "Oooo" + anime + "sounds raw fareal";
+        } else {
+            alert('Nah you skip this you a disgrace to anime');
+ 
+       }
+       console.log("Oooo" + anime + "sounds raw fareal");
+}
+
+//print output
+type name();
+type music();
+type game();
+type anime();
+</script>
+</html>
