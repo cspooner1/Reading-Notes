@@ -90,17 +90,18 @@ function displaycook() {
 
 function displaynumber() {
     number = prompt("Guess a number between 1 and 10!")
+    
     while (number != 7) {
         if (number < 7) {
             alert("Your answer is too low! Try again!")
             number = prompt("Please guess number again!");
         } else if(number > 7){
             alert("Your number is too high! Try again!");
-            answer = prompt("Please guess again");
-        } else if(number == 7){
-            alert("You are correct!");
-        }
+            number = prompt("Please guess again");
+        } 
     }
-}
+    alert("You are correct!")
+    }
+
 let button = document.querySelector("button");
 
