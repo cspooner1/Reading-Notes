@@ -1,15 +1,15 @@
-let name ="";
+let name = "";
 let age = "";
 let school = "";
 let color = "";
 let job = "";
 let cook = "";
 
-let questionsAnswered=0
+let questionsAnswered = 0
 
 function displayname() {
     let answer = prompt("Name?");
-    alert ("What it do " + answer);
+    alert("What it do " + answer);
     document.getElementById("name").innerHTML = "What it do " + answer;
     console.log("What it do " + answer);
 }
@@ -83,10 +83,24 @@ function displaycook() {
         alert("Your Wrong!!!");
     }
     questionsAnswered += 1
-   if (checkAnswer == 5){
-    alert("Thank you for taking my quiz")
-   }
+    if (checkAnswer == 5) {
+        alert("Thank you for taking my quiz")
+    }
 }
 
+function displaynumber() {
+    number = prompt("Guess a number between 1 and 10!")
+    while (number != 7) {
+        if (number < 7) {
+            alert("Your answer is too low! Try again!")
+            number = prompt("Please guess number again!");
+        } else if(number > 7){
+            alert("Your number is too high! Try again!");
+            answer = prompt("Please guess again");
+        } else if(number == 7){
+            alert("You are correct!");
+        }
+    }
+}
 let button = document.querySelector("button");
 
