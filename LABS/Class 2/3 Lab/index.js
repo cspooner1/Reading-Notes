@@ -110,13 +110,14 @@ function Answerchoices() {
 }
 function displaygames() {
     
-    answer = prompt("Answer with the letter choice for the game only.")
+   let answer = prompt("Answer with the letter choice for the game only.")
     
-    while (answer != "")
+    for (let i = 0; i < 6; i++) {
 
         if (answer == "C" || answer == "D" || answer == "d" || answer == "c") {
             alert("Correct!");
             document.getElementById("answer").innerHTML += answer;
+            break
             ;
 
         } else {
@@ -124,7 +125,7 @@ function displaygames() {
             answer = prompt("Please Try Again")
                 ;
         }
-
+    }
 
 
 
