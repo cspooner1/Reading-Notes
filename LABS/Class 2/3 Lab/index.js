@@ -90,18 +90,44 @@ function displaycook() {
 
 function displaynumber() {
     number = prompt("Guess a number between 1 and 10!")
-    
+
     while (number != 7) {
         if (number < 7) {
             alert("Your answer is too low! Try again!")
             number = prompt("Please guess number again!");
-        } else if(number > 7){
+        } else if (number > 7) {
             alert("Your number is too high! Try again!");
             number = prompt("Please guess again");
-        } 
+        }
     }
     alert("You are correct!")
-    }
+}
+const array = ["A. Fortnite", " B. Rainbow 6 Siege", " C. Assassins Creed ", " D. Tekken 7"];
+const list = document.getElementById("list");
 
+function Answerchoices() {
+    alert("Answers: " + array);
+}
+function displaygames() {
+    
+    answer = prompt("Answer with the letter choice for the game only.")
+    
+    while (answer != "")
+
+        if (answer == "C" || answer == "D" || answer == "d" || answer == "c") {
+            alert("Correct!");
+            document.getElementById("answer").innerHTML += answer;
+            ;
+
+        } else {
+            alert("incorrect");
+            answer = prompt("Please Try Again")
+                ;
+        }
+
+
+
+
+}
 let button = document.querySelector("button");
 
