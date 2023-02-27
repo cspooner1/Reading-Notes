@@ -114,6 +114,7 @@ function displaygames() {
     
     for (let i = 0; i < 6; i++) {
 
+
         if (answer == "C" || answer == "D" || answer == "d" || answer == "c") {
             alert("Correct!");
             document.getElementById("answer").innerHTML += answer;
@@ -130,5 +131,6 @@ function displaygames() {
 
 
 }
+
 let button = document.querySelector("button");
 
